@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LANDING MENSTORE</title>   
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" src="styles/styles.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MenStore</a>
+          
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="home">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="buscar">
+              <input class="form-control m-2" placeholder="Buscar" />
+              <button class="btn btn-outline-success" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>     
+      <div id="band" class="container text-center">
+        <h3>MenStore</h3>
+        <p><em>Tienda online para hombres!</em></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p class="text-center"><strong>Relojes</strong></p><br>
+                <a href="productos">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/I/71v0gULFn6L.jpg" class="img-circle"
+                        width="255" height="255">
+                </a>
+                <p>Luce los mejores relojes y llega siempre a tiempo a tus citas</p>
+            </div>
+            <div class="col-sm-4">
+                <p class="text-center"><strong>Perfumes</strong></p><br>
+                <a href="productos">
+                    <img src="https://www.somosmamas.com.ar/wp-content/uploads/2016/12/Lhommeperfumeparahombre-1017x1024.jpg"
+                        class="img-circle" width="255" height="255">
+                </a>
+                <p>Los mejores perfumes para ti y para toda ocasión</p>
+            </div>
+            <div class="col-sm-4">
+                <p class="text-center"><strong>Cuidado personal</strong></p><br>
+                <a href="productos">
+                    <img src="https://th.bing.com/th/id/R.127067bb5ac1589d4e0bceb848ca3aae?rik=tiTQps7G4krcuA&pid=ImgRaw&r=0"
+                        class="img-circle" width="255" height="255">
+                </a>
+                <p>Productos para el cuidado del hombre actual</p>
+            </div>
+        </div>
+        <div>
+            <hr>
+        </div>
+    
+    </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="text-center">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15959.166877382942!2d-78.49152727993162!3d-0.20922340798413128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1712764256319!5m2!1ses-419!2sec"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" width="600" height="400"
+      ></iframe>
+      <h2>INFORMACION DE CONTACTO</h2>
+      <!-- Container (Contact Section) -->
+      <div id="contact" class="container">
+        <h3 class="text-center">Contáctanos</h3>
+        <p class="text-center"><em>Amamos a nuestros seguidores!</em></p>
+
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              <span class="glyphicon glyphicon-map-marker"></span>Av. 12 de
+              Octubre y Roca, esquina.
+            </p>
+            <p>
+              <span class="glyphicon glyphicon-phone"></span>Teléfono: +593
+              928372728
+            </p>
+            <p>
+              <span class="glyphicon glyphicon-envelope"></span>Correo:
+              manstoreuio.gmail.com
+            </p>            
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <input
+                  class="form-control"
+                  id="name"
+                  name="nombre"
+                  placeholder="Nombre"
+                  type="text"
+                  required
+                />
+              </div>
+              <div class="col-sm-6 form-group">
+                <input
+                  class="form-control"
+                  id="email"
+                  name="correo"
+                  placeholder="Correo"
+                  type="email"
+                  required
+                />
+              </div>
+            </div>
+            <textarea
+              class="form-control"
+              id="comments"
+              name="comentario"
+              placeholder="Comentario"
+              rows="5"
+            ></textarea>
+            <br />
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <button class="btn btn-success pull-right" type="submit">
+                  Enviar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="container row p-5 my-5 bg-dark text-white">
+          <h3>TESTIMONIOS</h3>
+          <div class="container p-5 my-5 border">
+            <div class="col-sm-6">
+              <p>
+                Ex aliqua Lorem ad aliqua exercitation cillum aliqua id non.
+                Velit nulla do magna et veniam pariatur enim tempor officia
+                tempor. Incididunt dolor ad qui excepteur esse ea. Ullamco
+                laboris in occaecat ex. Cupidatat et commodo enim aliquip nisi
+                fugiat consequat aute enim do.
+              </p>
+              <span style="font-style: italic">-Ricardo Pérez</span>
+            </div>
+            <div class="col-sm-6">
+              <p>
+                Ex aliqua Lorem ad aliqua exercitation cillum aliqua id non.
+                Velit nulla do magna et veniam pariatur enim tempor officia
+                tempor. Incididunt dolor ad qui excepteur esse ea. Ullamco
+                laboris in occaecat ex. Cupidatat et commodo enim aliquip nisi
+                fugiat consequat aute enim do.
+              </p>
+              <span style="font-style: italic">-Sebastián Moreno</span>
+            </div>
+          </div>
+        </div>
+        <br />
+      </div>
+      <a class="up-arrow" href="home" data-toggle="tooltip" title="TO TOP">
+        <span class="glyphicon glyphicon-chevron-up"></span> </a
+      ><br /><br />
+      <p>Desarrollado por: Christopher Pesántez</p>
+    </footer>
+
+    <!--BOOTSTRAP-->
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
